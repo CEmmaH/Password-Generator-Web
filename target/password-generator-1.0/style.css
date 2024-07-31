@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+
+	* {
+	  box-sizing: border-box;
+	}
+	header {
+	  background-color: #666;
+	  padding: 30px;
+	  text-align: center;
+	  font-size: 35px;
+	  color: white;
+	}
+	.header2 { 
+	  background-color: orange;
+	  padding: 30px;
+	  text-align: center;
+	  font-size: 15px;
+	  color: black;
+	}
+	.field_text{ 
+		text-align: center;
+		font-size: 15px;
+		font-weight:700;
+	}
+	.button{
+		display:inline-block;
+		padding:6px 18px;
+		margin-bottom:0;
+		font-size:16px;
+		font-weight:400;
+		line-height:1.428571429;
+		white-space:nowrap;
+		cursor:pointer;
+		background-image:none;
+		border:1px solid transparent;
+		border-radius:4px;
+		-webkit-user-select:none;
+		-moz-user-select:none;
+		-ms-user-select:none;
+		-o-user-select:none;
+		user-select:none;		
+	}
+	.button-green{
+		color:#fff;
+		background-color:#038503
+	}
+	.button-main{
+		color:#fff;
+		background-color:#1289bb;
+		border-color:#076406;	
+	}
+	.short{
+		width: 80px
+	}
+	.input-custom[type=text]:disabled{
+		background-color:#ddd;
+		color:#000;
+		height: 30px;
+	}
+	.empty-row{
+		height:50px;
+	}
+	.table{
+		background-color:#fff;
+		padding-left:5px;
+		padding-right:5px;
+		width: 40%;
+		border-spacing:1px;
+		border-width:thin;
+		margin-bottom:10px;
+		background-color:#f0f0f0;
+		padding:10px;
+		-moz-border-radius-topleft:10px;
+		-moz-border-radius-bottomleft:10px;
+		-webkit-border-top-left-radius:10px;
+		-webkit-border-bottom-left-radius:10px;
+		-moz-border-radius-topright:10px;
+		-moz-border-radius-bottomright:10px;
+		-webkit-border-top-right-radius:10px;
+		-webkit-border-bottom-right-radius:10px;
+		padding-top:5px;
+		padding-bottom:5px;
+		font-weight:400;
+	}
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+	  float: left;
+	  width: 30%;
+	  height: 300px; /* only for demonstration, should be removed */
+	  background: #ccc;
+	  padding: 20px;
+	}
+	/* Style the footer */
+	footer {
+	  background-color: #777;
+	  padding: 10px;
+	  text-align: center;
+	  color: white;
+	}
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+	@media (max-width: 600px) {
+	  nav, article {
+	    width: 100%;
+	    height: auto;
+	  }
+	}
